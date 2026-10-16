@@ -1,0 +1,20 @@
+{
+  "name": "eb-verificacao-bot",
+  "version": "1.0.0",
+  "description": "Bot de verificação multigrupos do Exército Brasileiro (EB) — vinculação Discord ↔ Roblox com banco central SQLite.",
+  "main": "src/index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
